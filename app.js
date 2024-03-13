@@ -7,7 +7,7 @@ document.getElementById('start').onclick = function(){
 }
 const questions = [
     {
-        'que':"which of the following is the markup language?",
+        'que':"Which of the following is the markup language?",
         'a':"html",
         'b':"css",
         'c':"javascript",
@@ -15,7 +15,7 @@ const questions = [
         'correct':"a"
     },
     {
-        'que':"what is the correct HTML for creating a hyperlink?",
+        'que':"What is the correct HTML for creating a hyperlink?",
         'a':"<a name='example.com'> example </a>",
         'b':"<a url='example.com'> example </a>",
         'c':"<a href='example.com'> example </a>",
@@ -23,7 +23,7 @@ const questions = [
         'correct':"c"
     },
     {
-        'que':"_________ keyword is used to declare variables in javascript.",
+        'que':"Which keyword is used to declare variables in javascript?",
         'a':"string",
         'b':"var",
         'c':"$",

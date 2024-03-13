@@ -115,6 +115,7 @@ input{
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-size: 0.9rem;
 }
 
 /* mobile responsive */
@@ -128,7 +129,6 @@ input{
         justify-content: center;
         padding: 0.5rem;
         margin-top: 1rem;
-        font-size: 0.95rem;
     }
     .main{
         width: 100%;
