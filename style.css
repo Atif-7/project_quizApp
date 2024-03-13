@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* font classes   */
+.merriweather-light {
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.merriweather-regular {
+    font-family: "Merriweather", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+  
+.merriweather-bold {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+  
+.merriweather-black {
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: normal;
+}
+/* ---- */
+
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#container{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: azure;
+    box-shadow: 0px 0px 5px gray;
+    border: 2px solid mediumseagreen;
+    border-radius: 8px;
+    padding: 0.5rem;
+}
+#container h2{
+    margin: 1rem 0;
+    color: firebrick;
+}
+h3{
+   text-align: center;
+   margin-bottom: 5px;
+}
+.row {
+    margin: 0.5rem;
+    display: flex;
+    justify-self: flex-start;
+    align-self: flex-start;
+    margin-left: 1.5rem;
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+input{
+    margin: auto 5px;
+}
+.row p {
+    margin-left: 1rem;
+    color: rgb(75, 17, 10);
+}
+#submit{
+    width: 90%;
+    padding: 5px;
+    color: white;
+    background-color:firebrick ;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+#submit:hover,.Btn:hover{
+    opacity: calc(97%);
+}
+.result{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding:0.5rem;
+}
+.img{
+    width: 300px;
+    height: 190px;
+    margin: 0.5rem;
+}
+.Btn{
+    width: 90%;
+    padding: 5px;
+    font-size: 1rem;
+    text-decoration: none;
+    color: white;
+    background-color:rgb(178, 34, 41) ;
+    border: none;
+    border-radius: 3px;
+    text-align: center;
+    margin: 0.5rem;
+
+}
+#intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* mobile responsive */
+@media (max-width: 480px){
+    #container{
+        width: 90%;
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0.5rem;
+        margin-top: 1rem;
+        font-size: 0.95rem;
+    }
+    .main{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: flex-start;
+    }
+    .row {
+        margin: 0.5rem;
+    }
+    .img{
+        width: 100%;
+        height: 190px;
+        margin: 1rem auto;
+    }
+}

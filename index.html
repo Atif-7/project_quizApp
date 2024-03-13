@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div id="container">
+            <div id="intro"></div>
+            <center>
+            <div id="box">
+            <h2 class="merriweather-bold">Quiz App</h2>
+            <h3 id="quesBox" class="merriweather-regular">Q ) This is demo Question</h3>
+            <div class="row">
+                <label for="">a)</label>
+                <input type="radio" name="option" value="a"
+                class="option" id="op1">
+                <p>option 1</p>
+            </div>
+            <div class="row">
+                <label for="">b)</label>
+                <input type="radio" name="option" value="b" class="option" id="op2">
+                <p>option 2</p>
+            </div>
+            <div class="row">
+                <label for="">c)</label>
+                <input type="radio" name="option" value="c" class="option" id="op3">
+                <p>option 3</p>
+            </div>
+            <div class="row">
+                <label for="">d)</label>
+                <input type="radio" name="option" value="d" class="option" id="op4">
+                <p>option 4</p>
+            </div>
+            <button id="submit" onclick="submitQuiz()">Submit</button>
+        </center>
+            </div>
+        </div>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
